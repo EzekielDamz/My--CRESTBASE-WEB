@@ -1,0 +1,302 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', 'merriweather', 'DM sans'; 
+}
+body{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    flex-shrink: 0;
+    
+    
+}
+ 
+.header {
+    justify-content: center;
+    text-decoration: none;
+    background-color:whitesmoke;
+    padding: 1.6rem 0;
+    width: 100%;
+    position: sticky;
+    z-index: 999;
+    top: 0;
+    left: 0;
+}
+.crest-nav {
+
+    padding-right: 6rem;
+}
+
+ul {
+    display: flex;
+    justify-content: center;
+    text-align:  center;
+    float: right;
+ }
+li {
+    padding-left: 3rem;
+    list-style: none;
+    padding-top: 0.6rem;
+}
+
+li a {
+    text-decoration: none;
+    width: 6.125rem;
+    color: #262c55;
+    font-size: 1rem;
+    font-family: 'Inter';
+    font-weight: 400;
+    line-height: normal;
+    text-align: center;
+}
+.logo{
+    padding-left: 5rem;
+}
+#bar{
+    display: none;
+}
+  
+section {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: auto;
+    
+}
+.content{
+    
+    justify-content: center;
+    flex-direction: column;
+    flex-shrink: 0; 
+}
+.phone{
+    width: 35rem;
+    float: right;
+}
+h2{
+    margin-top: 4.875rem;
+    margin-bottom: 1.5rem;
+    font-family: 'Merriweather';
+    padding-left: 5rem;
+    font-size: 3.2rem;
+    font-weight: 800;
+    color: #262c55;
+    padding-top: 4.5rem;
+    
+}
+span{
+    color: #3d79ef;
+}
+.Rent-para{
+    font-size: 1.58rem;
+    font-family: 'DM Sans';
+    font-style: normal;
+    padding-left: 5rem;
+    line-height: 2.5rem;
+    margin-bottom: 2rem;
+}
+
+.download{
+    margin-left: 5rem;
+    padding-bottom: 3rem;
+    cursor: pointer;
+}
+.download .store {
+    padding: 0 1rem;
+    width: 34.49%;
+}
+.download .playstore {
+    width:13%;
+}
+h3{
+    text-align: center;
+    margin-top: 3rem;
+    margin-bottom: 0;
+    font-size: 1.75rem;
+    font-style: normal;
+    font-weight: 900;
+    color: #262c55;
+}
+
+.works{
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    flex-wrap: wrap; 
+    align-items: center;
+}
+.Home{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    width: 70rem;
+    margin-bottom: 5rem;
+}
+.home-search{
+    padding-top: 7rem;
+    padding-bottom: 6rem;
+}
+.make-payment{
+    padding-top: 7rem;
+    padding-bottom: 4rem;
+    padding-right: 5rem;
+
+}
+.sign-document{
+    padding-top: 7rem;
+    padding-bottom: 6rem;
+}
+h4{
+    padding-top: 3rem;
+    padding-bottom: .5rem;
+    color: #262c55;
+    font-family: 'Merriweather';
+    font-size: 1.125rem;
+    font-weight: 900;
+    line-height: 1.878rem;
+    
+}
+.text{
+    display: flex;
+
+}
+p{
+   color: #4f4f4f;
+   font-family: 'Dm sans';
+   font-size: 1.2rem;
+   font-style: normal;
+   font-weight: 400;
+   padding: 0 .5rem;
+   line-height: 1.6875rem;
+}
+.offers-content{
+    display: flex;
+    justify-content: center;
+    width: 90rem;
+    background-color: rgba(61, 121, 239, 0.03);
+}
+.offer-para{
+    text-align: center;
+    padding-bottom: 3rem;
+}
+
+.Rent-price{
+    float: left;
+    background-color: #3d79ef;
+    width: 33.25rem;
+    height: 32.5625rem;
+    border-radius: 1.25rem;
+    margin: 3rem 3rem;
+    
+}
+
+.Buy-land{
+    display: flex;
+    flex-direction: column;
+    float: left;
+    background-color :#35a162;;
+    margin: 3rem 3rem;
+    border-radius: 1.25rem;
+    width: 33.25rem;
+    height: 32.5625rem;
+}
+
+.offer{
+    color: #ffff;
+    padding: 0 3.25rem;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.6875rem;
+    font-family: 'DM sans';
+}
+.offer-head{
+    padding:0 3.25rem ;
+    margin-top: 3.25rem;
+    margin-bottom: 0.44rem;
+    color: #fff;
+    font-family: 'merriweather';
+    font-size: 1.75rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 2.625rem;
+}
+.rent{
+    padding-left: 15rem;
+    margin-top: .2rem;
+}
+.buy{
+    width: 16rem;
+    padding-left: 15rem;
+    margin-top: 1.84rem;
+}
+
+/* Mobile */
+
+@media (max-width:60rem) {
+    .crest-nav ul {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+        background-color: aqua;
+        position: fixed;
+        top: 0;
+        right: -300px;     
+        height: 100vh;
+        width: 300px;
+    }
+    
+     li a{
+        align-items: center;
+    }
+    #bar{
+        display: flex;
+        align-items: center;
+        font-size: 1.6rem;
+        color: #262c55;
+        float: right;
+        top: 1rem;
+        padding-right: 1rem;
+    }
+    .phone {
+        flex-direction: row;
+    }
+    .Rent-para{
+        font-size: 1rem;
+    }
+    h2{
+        font-size: 2rem;
+    }
+    .Home{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: column-reverse;
+    }
+     .p{
+        color: #4f4f4f;
+        font-family: 'Dm sans';
+        font-size: 1rem;
+        font-style: normal;
+        font-weight: 200;
+    
+        line-height: 1.6875rem;
+     }
+     .Rent-price{
+        float: left;
+        background-color: #3d79ef;
+        width: 30.4rem;
+        height: 32.5625rem;
+        border-radius: 1.25rem;
+        margin: 3rem 3rem;
+        align-items: center;
+        
+    }
+}
+
+
